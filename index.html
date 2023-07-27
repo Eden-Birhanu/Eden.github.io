@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav class="navbar">
+          <img src="Images/Main_Logo__3_-removebg-preview.png" class="logo" />
+          <div class="hamburger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li class="Contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>Construction Supervisor</p>
+          <h1>I'M <span> Eden Tilahun Birhanu</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------About ------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <!-- <img src="Images/Eden_Tilahun-removebg-preview.png" alt="" /> -->
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title-1">About Me</h1>
+            <h2 class="sub-title-2">About Me</h2>
+            <p>
+              Experienced Construction Supervisor with a demonstrated history of
+              working in the Construction industry. Skilled in developing
+              project plans, preparing cost estimates, ensuring regulatory
+              compliance, managing construction teams, and monitoring project
+              progress.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Structural Analysis and Design</span> <br />Buildings,
+                  Bridges and Other Infrastructures.
+                </li>
+                <li>
+                  <span>AutoCAD and Drafting</span> <br />Creating detailed
+                  drawings and plans using computer-aided design (CAD) software.
+                </li>
+                <li>
+                  <span>Quality Control and Assurance</span>
+                  <br />Implementation of quality control procedures.
+                </li>
+                <li>
+                  <span>Project Management</span> <br />Ability to oversee and
+                  manage construction projects from conception to completion.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2020- current</span> <br />Construction Supervisor at
+                  Brook Hospital For Animal
+                </li>
+
+                <li></li>
+                <li>
+                  <span>2018 - 2020</span> <br />Office Enginer at Ashenafi
+                  Tesfaye General Contractor
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022-current</span>
+                  <br />MSc in Computer Science at American College of
+                  Technology
+                </li>
+                <li>
+                  <span>2017-2020</span> <br />BA in Management at Bahar Bar
+                  University
+                </li>
+                <li>
+                  <span>2013-2018</span> <br />BSc in Civil Engineering at
+                  University of Gondar
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------Gallery -------------- -->
+    <div id="Gallery">
+      <div class="container">
+        <h1 class="sub-title-1">Gallery</h1>
+        <h2 class="sub-title-2">Gallery</h2>
+      </div>
+      <div id="grid" class="grid-container">
+        <div id="image1" class="griditem image1"></div>
+        <div id="image2" class="griditem image2"></div>
+        <div id="image3" class="griditem image3"></div>
+        <div id="image4" class="griditem image4"></div>
+        <div id="image5" class="griditem image5"></div>
+        <div id="image6" class="griditem image6"></div>
+        <div id="image7" class="griditem image7"></div>
+        <div id="image8" class="griditem image8"></div>
+      </div>
+    </div>
+    <div id="modal01" class="modal">
+      <img id="img01" class="mod-img animate-zoom" />
+      <div id="btn1" class="modal-btn">Close</div>
+    </div>
+    <!-- ---------------------Testimonials -------------- -->
+    <div id="Testimonials">
+      <div class="container">
+        <h1 class="sub-title-1">Testimonials</h1>
+        <h2 class="sub-title-2">Testimonials</h2>
+        <div class="Testimonials-list">
+          <div class="Testimoni">
+            <img src="Images/Yishak Tilahun.jpeg" alt="" />
+            <div class="comment">
+              <h4>Mr. Yishak Tilahun</h4>
+              <p>
+                It is such an inspiration for me to have a co-worker like
+                Eden.She is the most inspired woman I've ever seen.I'm very
+                proud to have been able to work with her.
+              </p>
+            </div>
+          </div>
+          <div class="Testimoni">
+            <img src="Images/Natnael Alemu.jpeg" alt="" />
+            <div class="comment">
+              <h4>Mr. Natnael Alemu</h4>
+              <p>
+                Working with Eden was an absolute pleasure. Her strong
+                leadership skills and attention to detail ensured that our
+                construction projects ran smoothly and efficiently. I highly
+                recommend them to anyone in need of a reliable and skilled
+                construction supervisor.
+              </p>
+            </div>
+          </div>
+          <div class="Testimoni">
+            <img src="Images/Seblework.png" alt="" />
+            <div class="comment">
+              <h4>Ms. Seblework Alemu</h4>
+              <p>
+                As a construction worker under Eden's guidance, I learned a
+                great deal. Her experience and knowledge of the construction
+                industry are unmatched, and they have a talent for motivating
+                the team to deliver Her best work. It was a privilege to be part
+                of Her projects.
+              </p>
+            </div>
+          </div>
+          <div class="Testimoni">
+            <img src="Images/Yoseph Amsalu.jpeg" alt="" />
+            <div class="comment">
+              <h4>Mr. Yoseph Amsalu</h4>
+              <p>
+                It is such an inspiration for me to have a co-worker lide
+                Eden.She is the most inspired woman I've ever seen.I'm very
+                proud to have been able to work with her.
+              </p>
+            </div>
+          </div>
+          <div class="Testimoni">
+            <img src="Images/Gashaw.jpg" alt="" />
+            <div class="comment">
+              <h4>Mr. Gashaw Mekuriaw</h4>
+              <p>
+                Ms. Eden oversaw the construction of our dream health post
+                project, and we couldn't be happier with the results. Her
+                expertise and ability to communicate with us throughout the
+                entire process made the experience stress-free. The attention to
+                detail and commitment to quality truly set her apart.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------Contact -------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title-1">Contact</h1>
+            <h2 class="sub-title-2">Contact</h2>
+            <h3 class="sub-title-3">Get In Touch</h3>
+            <p>
+              <img src="Images/Email.png" alt="" class="icon" />
+              edentilahun97@gmail.com
+            </p>
+            <p>
+              <img src="Images/telegram.png" alt="" class="icon" />
+              +251928292628
+            </p>
+            <p>
+              <a
+                class="google-maps-link"
+                href="https://www.google.com/maps/place/Addis+Ababa"
+                ><img src="Images/location.png" alt="" class="icon" /> Addis
+                Ababa, Ethiopia</a
+              >
+            </p>
+
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/eden.tilahun.501"
+                target="_blank"
+                class="icon-link"
+              >
+                <img src="Images/facebook.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://www.instagram.com/eden_tilahun1/"
+                target="_blank"
+                class="icon-link"
+              >
+                <img src="Images/instagram.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://twitter.com/EDEN44600554"
+                target="_blank"
+                class="icon-link"
+              >
+                <img src="Images/twitter.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/eden-tilahun/"
+                target="_blank"
+                class="icon-link"
+              >
+                <img src="Images/LinkedIn.png" alt="Facebook" />
+              </a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="send" class="send-button">send</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const hamburger = document.querySelector(".hamburger-icon");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+    <script>
+      document.getElementById("grid").addEventListener("click", onImage);
+
+      function onImage(event) {
+        var x = event.target;
+        const image = getComputedStyle(x);
+        x.src = image.backgroundImage.slice(5, -2);
+        if (x.src == "") {
+          return;
+        } else {
+          var modal = document.getElementById("modal01");
+          modal.style.display = "block";
+          var img01 = document.getElementById("img01");
+          img01.src = x.src;
+          document
+            .getElementById("btn1")
+            .addEventListener("click", function () {
+              modal01.style.display = "none";
+            });
+          console.log(x.src, img01.clientWidth, img01.clientHeight);
+        }
+      }
+    </script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwVuVf0WyuASryqLUrv4iQtIdVOxZZTlEYdp3tzodOwCt0pRxwERdfTW94ucB0TMy8R/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
